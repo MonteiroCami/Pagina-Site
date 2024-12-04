@@ -1,7 +1,7 @@
 /*css feito apenas para organização da página, separando do modo pedido pelo professor*/
 
 body{                            /* Estilo utilizado no corpo do site */
-    text-decoration: underline; /* sublinhado */
+    text-decoration: underline #8B5A2B; /* sublinhado */
     font-size:20px;             /* Tamanho da fonte */
     text-align: center;         /* Define a posição do texto no centro */
 
@@ -9,25 +9,34 @@ body{                            /* Estilo utilizado no corpo do site */
 #cabecalho{
     width: 100%;                /* Largura 100% da página */
     height: 100px;              /* Altura */
-    border: 1px solid black;    /* Borda */
-    background: #CDCDC1;        /* Cor de fundo do cabeçalho */
+    border: 1px solid #000000;    /* Borda */
+    background: #5F9EA0;         /* Cor de fundo do cabeçalho */
+    font-size: 50px; 
+    color: #8B5A2B;      
 }
 #menu{
    float: left;                 /* Posição do Menu, esquerdo */
    min-height: 300px;           /* Tamanho mínimo 300 píxels */
    width: 200px;                /* Largura */
    border: 1px solid black;     /* Borda */
-   background: #8b8b83;         /* Cor de fundo do menu */
+   background: #96dde0;         /* Cor de fundo do menu */
+   font-size: 20px;
 }
 #conteudo{
    width: 100%;                 /* Largura 100% da página */                
    min-height: 300px;           /* Tamanho mínimo 300 píxels */
    border: 1px solid black;     /* Borda */
-   background: white;           /* Cor de fundo do menu */
+   background: white;          /* Cor de fundo do menu */
+   font-size: 25px; 
+   color: #6B8E23;
+   text-decoration: underline #6B8E23;       
 }
 #rodape{
    width: 100%;                 /* Largura 100% da página */
    height: 50px;                /* Altura do rodapé */
    border: 1px solid black;     /* Borda */
-   background: #CDCDC1;         /* Cor de fundo do menu */
+   background: #5F9EA0;         /* Cor de fundo do menu */
+   font-size: 20px; 
+   color: #000000;
+   text-decoration: underline black;
 }
