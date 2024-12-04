@@ -36,6 +36,28 @@ body{                            /* Estilo utilizado no corpo do site */
     text-align: center;   /* centraliza o texto */
 }
 
+#conteudo img {
+    width: 300px;             /* largura da imagem */
+    height: 200px;            /* altura da imagem */
+    display: block;           /* faz a imagem ocupar sua própria linha */
+    margin-left: 15%;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px gray;  /* adiciona sombra */
+}
+
+#conteudo h3 {
+    text-align: center;      /* centraliza o título */
+    margin-bottom: 20px;     /* espaço após o título */
+    color: #333;            /* cor do título */
+}
+
+#conteudo p {
+    text-align: justify;     /* alinha o texto */
+    line-height: 1.6;        /* espaçamento entre linhas */
+    margin-bottom: 15px;     /* espaço entre parágrafos */
+    font-size: 16px;         /* tamanho da fonte */
+}
+
 #rodape{
    width: 100%;                 /* Largura 100% da página */
    height: 50px;                /* Altura do rodapé */
