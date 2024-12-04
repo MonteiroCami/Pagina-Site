@@ -29,8 +29,13 @@ body{                            /* Estilo utilizado no corpo do site */
    background: white;          /* Cor de fundo do menu */
    font-size: 25px; 
    color: #6B8E23;
-   text-decoration: underline #6B8E23;       
+   text-decoration: underline #6B8E23;     
 }
+#conteudo h2 {
+    margin-bottom: 10px;  /* espaço entre o título e a imagem */
+    text-align: center;   /* centraliza o texto */
+}
+
 #rodape{
    width: 100%;                 /* Largura 100% da página */
    height: 50px;                /* Altura do rodapé */
