@@ -1,18 +1,20 @@
 /*css feito apenas para organização da página, separando do modo pedido pelo professor*/
 
 body{                            /* Estilo utilizado no corpo do site */
-    text-decoration: underline #8B5A2B; /* sublinhado */
+    /*text-decoration: underline #8B5A2B; /* sublinhado */
     font-size:20px;             /* Tamanho da fonte */
     text-align: center;         /* Define a posição do texto no centro */
 
 }
+
 #cabecalho{
     width: 100%;                /* Largura 100% da página */
     height: 100px;              /* Altura */
     border: 1px solid #000000;    /* Borda */
     background: #5F9EA0;         /* Cor de fundo do cabeçalho */
     font-size: 50px; 
-    color: #8B5A2B;      
+    color: #8B5A2B;   
+    text-decoration: underline #8B5A2B;    
 }
 #menu{
    float: left;                 /* Posição do Menu, esquerdo */
@@ -29,7 +31,7 @@ body{                            /* Estilo utilizado no corpo do site */
    background: white;          /* Cor de fundo do menu */
    font-size: 25px; 
    color: #6B8E23;
-   text-decoration: underline #6B8E23;     
+
 }
 #conteudo h2 {
     margin-bottom: 10px;  /* espaço entre o título e a imagem */
@@ -39,23 +41,24 @@ body{                            /* Estilo utilizado no corpo do site */
 #conteudo img {
     width: 300px;             /* largura da imagem */
     height: 200px;            /* altura da imagem */
-    display: block;           /* faz a imagem ocupar sua própria linha */
-    margin-left: 15%;
-    margin-right: auto;
-    box-shadow: 2px 2px 5px gray;  /* adiciona sombra */
+    box-shadow: 2px 2px 5px rgb(97, 93, 93);  /* adiciona sombra */
 }
 
 #conteudo h3 {
     text-align: center;      /* centraliza o título */
     margin-bottom: 20px;     /* espaço após o título */
-    color: #333;            /* cor do título */
+    color: #000000;            /* cor do título */
+    margin-left: 50px;
 }
 
 #conteudo p {
-    text-align: justify;     /* alinha o texto */
-    line-height: 1.6;        /* espaçamento entre linhas */
-    margin-bottom: 15px;     /* espaço entre parágrafos */
-    font-size: 16px;         /* tamanho da fonte */
+    text-align:center;     /* alinha o texto */
+    align-items: center;
+    line-height: 1.5;        /* espaçamento entre linhas */
+    margin-bottom: 10px;     /* espaço entre parágrafos */
+    font-size: 18px;         /* tamanho da fonte */
+    color: rgb(116, 55, 1);
+    margin-left: 250px;
 }
 
 #rodape{
